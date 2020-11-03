@@ -1,0 +1,202 @@
+/* HEADINGS AND BODY */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+main {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #bedce8;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h1 {
+    font-weight: 500;
+    font-size: 45px;
+    padding-top: 20px;
+    margin-bottom: 0;
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+}
+h4 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+/*LIST ITEMS */
+ul {
+    max-width: 600px;
+    margin: 0 auto;
+    /*text-align: left;*/
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 300;
+}
+li {
+    padding: 10px;
+}
+p {
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*IMAGE AND CAPTIONS */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+figure {
+    display: table;
+    text-align: center;
+}
+figcaption {
+    display: table-caption;
+    caption-side: bottom;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 5px;
+}
+#img-div {
+    background-color: white;
+    border: 5px solid white;
+}
+#img-caption {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    padding-bottom: 10px;
+    background: white;
+}
+#bannerImgs {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+#bannerImgs2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+#bannerImgs img {
+    height: auto;
+    width: 90%;
+    max-height: 200px;
+    display: block;
+    margin: 0 auto;
+    border: solid 5px #bedce8;
+}
+#bannerImgs2 img {
+    height: auto;
+    width: 90%;
+    max-height: 200px;
+    display: block;
+    margin: 0 auto;
+    border: solid 5px #bedce8;
+}
+#memory {
+    max-width: 100%;
+    width: 350px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid white;
+}
+#time {
+    max-width: 100%;
+    width: 350px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid white;
+}
+#picasso {
+    max-width: 100%;
+    width: 350px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid white;
+}
+#baby {
+    max-width: 100%;
+    width: 350px;
+    display: block;
+    border: 5px solid white;
+}
+#freud {
+    max-width: 100%;
+    width: 350px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid white;
+}
+#voltaire {
+    max-width: 100%;
+    width: 350px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid white;
+}
+#nude-wife {
+    max-width: 100%;
+    width: 350px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid white;
+}
+#dematerialization {
+    max-width: 100%;
+    width: 350px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid white;
+}
+#toreador {
+    max-width: 100%;
+    width: 350px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid white;
+}
+#swallow {
+    max-width: 100%;
+    width: 350px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid white;
+}
+.img-caption {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 5px;
+}
+.float-right {
+    float: right;
+}
+.float-left {
+    float: left;
+}
